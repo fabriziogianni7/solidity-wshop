@@ -1,6 +1,6 @@
 # Solidity Workshop
 
-This repo is for the workshop at Urbe Campus!
+This repo is for the workshop at [Urbe Campus](https://urbe.build/#activities)!
 
 Clone this repo in remix. To do so, follow the steps:
 
