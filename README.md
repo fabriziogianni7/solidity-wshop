@@ -14,4 +14,5 @@ Once you cloned this, you can edit the contracts in "contracts" folder, directly
 
 ## Other Resources
 - [workshop presentation](https://www.canva.com/design/DAGSDDm0mMI/p5RMzZaSaGrqvoY_Im8Q6w/view?utm_content=DAGSDDm0mMI&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- [urbe campus discord](https://discord.com/channels/969143984138092604/1208094620446236684)
 
