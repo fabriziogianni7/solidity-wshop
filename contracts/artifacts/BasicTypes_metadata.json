@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setUnsignedInteger",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unsignedInteger",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "this is a contract to learn data types and functions in solidity. Create a contract that demonstrates the use of different data types (e.g., uint, int, bool, address, string, and arrays and mapping) Create data type and setters",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_First_Steps.sol": "BasicTypes"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_First_Steps.sol": {
+			"keccak256": "0xbc7cb5f824b94f20e9506e815c77369f9cb805ada32ec9f9d80ba613b8467867",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://29c495650246c0cdce8cd456c31047f8636d67ceb52d2158c9251195d650f919",
+				"dweb:/ipfs/QmTAS2piefMAZR5KwtK6nwaC84prQGcRXDzuAhDMsJY1U4"
+			]
+		}
+	},
+	"version": 1
+}
