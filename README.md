@@ -11,3 +11,7 @@ Clone this repo in remix. To do so, follow the steps:
 5. you should be ok to Go
 
 Once you cloned this, you can edit the contracts in "contracts" folder, directly in remix.
+
+## Other Resources
+- [workshop presentation](https://www.canva.com/design/DAGSDDm0mMI/p5RMzZaSaGrqvoY_Im8Q6w/view?utm_content=DAGSDDm0mMI&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
