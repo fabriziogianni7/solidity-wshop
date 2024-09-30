@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Create a contract to store a list of animals using a struct and a mapping, and implement functions to add and retrieve data.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StructAndMappings.sol": "StructAndMappings"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructAndMappings.sol": {
+			"keccak256": "0x3f837b381354742bdf40dfd4edd0736af1a870bd68900da03eb6f766ea046385",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b4d2385530e956d937174ac579ae5900de40e8560b565255d6c29a3604cdabe2",
+				"dweb:/ipfs/QmSWtQ9eZgfTSKYDYw4ujAvQZmY1J5vwdizA8AtvUDcn81"
+			]
+		}
+	},
+	"version": 1
+}

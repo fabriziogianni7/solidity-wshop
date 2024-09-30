@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "this is a contract to learn conditional statements and the use of require  create a contract that has a myAge variable and a conditional that emit an event saying \"you're in\" if  myAge >=18 else \"you cannot enter\" if myAge < 18. hint: you need to set the variable first!",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_Conditionals.sol": "Conditionals"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Conditionals.sol": {
+			"keccak256": "0x3adaf804d9f47e6b3e7841c6b91ba5016f442d5cc24e3d60fe7dadf02fe338cf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4351b3ce134a5e63d227754f7ce884bb7f4f92b5835d4e333c10294161c56985",
+				"dweb:/ipfs/QmcW8uSo7yYwAabwtE4rNg73dFjpZbkotp9WpeN4dJ1uBQ"
+			]
+		}
+	},
+	"version": 1
+}

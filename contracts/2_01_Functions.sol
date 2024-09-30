@@ -14,9 +14,13 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract Functions {
 
+
     uint public unsignedInteger = 10;
     event Hello(string indexed hello); // one function need to emit this event this way: emit Hello('hi')
     
     // assignment: create the functions here 
 
+
 }
+
+

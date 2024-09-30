@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "create a cointract with some state variable that need to be initialized in the constructor",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2_02_Constructor.sol": "Constructor"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2_02_Constructor.sol": {
+			"keccak256": "0x52bcf787e17be2e810478a90a2111fe6d00da3edf4852984ee58e5c1365c0f1f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://27ed58b54ab8513453af483b8660e6ceb7b00639a70514d3a662ec7da6a2e5e8",
+				"dweb:/ipfs/QmRF96t9mPQErpRrVpMwBcVSqKdF6huVbmzqvZD7eMX2By"
+			]
+		}
+	},
+	"version": 1
+}
