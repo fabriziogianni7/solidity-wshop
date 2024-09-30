@@ -10,4 +10,4 @@ Clone this repo in remix. To do so, follow the steps:
 4. insert this link https://github.com/fabriziogianni7/solidity-wshop
 5. you should be ok to Go
 
-Once you cloned this, you can edit the contracts in "contracts" folder.
+Once you cloned this, you can edit the contracts in "contracts" folder, directly in remix.
