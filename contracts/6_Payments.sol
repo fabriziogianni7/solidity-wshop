@@ -5,6 +5,8 @@ pragma solidity >=0.8.2 <0.9.0;
 // then, the exercise is to rewrite this contract  but you need to send money each other
 // deploy this contract, send the address to your mate. your mate should send something here
 // as a task, you need to go to the sepolia block explorer and check the transaction you sent!
+// for this task, you need to create a wallet: https://metamask.io/it/
+// then go here to get test tokens: https://faucets.chain.link/sepolia
 
 contract SimpleWallet {
     address public owner;
