@@ -10,12 +10,15 @@ pragma solidity >=0.8.2 <0.9.0;
 contract Constructor {
 
 // create a state variable here
-
+uint public someVariable ;
 // create a constructor here
-// constructor(type nameOfVariable) {
-//     assign value to state variable here
-// }
-
+ constructor(uint initVariable) {
+    someVariable = initVariable;
+ }
+ 
+ function getInitializedVariable() public view returns(uint){
+    return someVariable;
+ }
 
 
 }

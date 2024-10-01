@@ -12,6 +12,7 @@ pragma solidity >=0.8.2 <0.9.0;
 contract Conditionals {
 
     uint public myAge; 
+    event IsOkToEnter(bool isOk, uint age, string message);
 
     /*
     that's a conditional statement in solidity:
@@ -22,7 +23,12 @@ contract Conditionals {
 
     */
 
-    function checkAge() public {
+    constructor(uint newAge){
+        myAge = newAge;
+    }
+
+    function checkAge() public  {
+        require(myAge != 0, "myAge is not initialized");
         /*
         uncomment and complete this:
         // use require to check if myAge is there!!
@@ -34,6 +40,12 @@ contract Conditionals {
             // emit other event
         }
         */
+
+        if(myAge > 18){
+             emit IsOkToEnter(true, myAge,"he/she is ok to enter");
+        }else{
+             emit IsOkToEnter(false, myAge,"he/she is not ok to enter");
+        }
     }
 
 

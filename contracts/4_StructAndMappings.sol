@@ -21,6 +21,24 @@ contract StructAndMappings {
         // eg: 1 -> Fabrizio, 2 -> Chiara, 3 -> Francesco
         // hint: you need to keep the count of the index. how?
         mapping (uint => Person) public people;
+        uint public counter;
+
+
+        //people[key] = value
+//
+        //Person me = people[key]
+
+        function newPerson() public pure returns(Person memory){
+            Person memory me = Person({
+                name: "fabri",
+                age: 30
+            });
+            return me;
+        }
+
+        
+       
+
 
         // assignment: create a struct for animals, make a mapping of Animals 
         // you need to declare the struct and the mapping. then you need to create a function to add elements to the mapping and a function to get the element at the nth index

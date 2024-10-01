@@ -4,7 +4,45 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initVariable",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getInitializedVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "someVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -34,11 +72,11 @@
 	},
 	"sources": {
 		"contracts/2_02_Constructor.sol": {
-			"keccak256": "0x52bcf787e17be2e810478a90a2111fe6d00da3edf4852984ee58e5c1365c0f1f",
+			"keccak256": "0x37948339263c6ec33f676f2f2bc657cd56cf14855a26bea4e6fcfb2bf90378c5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://27ed58b54ab8513453af483b8660e6ceb7b00639a70514d3a662ec7da6a2e5e8",
-				"dweb:/ipfs/QmRF96t9mPQErpRrVpMwBcVSqKdF6huVbmzqvZD7eMX2By"
+				"bzz-raw://0923bdf85cc6c2bce5a8416dc8a49ded4e8488c20fe3db2b5e1a6d0e98c19b70",
+				"dweb:/ipfs/QmQtNvs6P5hjwRfV5bPzQBZhz14WtRJtuCPt1q3YVgUssE"
 			]
 		}
 	},
