@@ -8,13 +8,26 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address[]",
-						"name": "_candidates",
-						"type": "address[]"
+						"internalType": "string[]",
+						"name": "_elements",
+						"type": "string[]"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [
@@ -24,12 +37,12 @@
 						"type": "uint256"
 					}
 				],
-				"name": "candidates",
+				"name": "elements",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -37,12 +50,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "extractWinner",
+				"name": "getCounter",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -50,26 +63,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "contendant",
-						"type": "address"
-					}
-				],
-				"name": "vote",
+				"name": "loopWhatever",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -77,20 +71,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
+						"internalType": "string[]",
+						"name": "memoryElements",
+						"type": "string[]"
 					}
 				],
-				"name": "votes",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "loopWhateverInMemory",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -102,12 +90,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "Create a contract that has an array. initialize the array and loop trough its values",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7_FinalAssignment.sol": "SimpleVoting"
+			"contracts/5_Loops.sol": "Loops"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -121,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7_FinalAssignment.sol": {
-			"keccak256": "0xff7f40a0c847b2612bb8690d01664c10b4e24a683d9df21f13ec869712825acb",
-			"license": "MIT",
+		"contracts/5_Loops.sol": {
+			"keccak256": "0xb0b57cfa65c1a30d8ed1687a25cda73c358bb9c7daf6c4b78f39a9861244ecd3",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fbefc97dfae6bbc6f8c0fc5b0025a1a3d9674aff73a2369397d0c29e17ebfe31",
-				"dweb:/ipfs/QmeyNhBuAnkiMcFg3U1wvL2gzQxPi1pMvzB9oDFLmyNN6d"
+				"bzz-raw://35df1c9499ca9212e18945876280f295b0497b6afb825ca41491c53b8a34f7fc",
+				"dweb:/ipfs/QmVbfncYUUwzXk3weapnvDaKKRhCmuMKh3RdenTyKgZqGn"
 			]
 		}
 	},

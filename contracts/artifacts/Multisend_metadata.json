@@ -6,34 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "receivers",
+						"type": "address[]"
+					}
+				],
+				"name": "multisend",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "withdrawn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -54,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/payments_2.sol": "SimpleWallet"
+			"contracts/payments_2.sol": "Multisend"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,11 +77,11 @@
 	},
 	"sources": {
 		"contracts/payments_2.sol": {
-			"keccak256": "0xffd4eb64cf4768423db49af24ae40f96453d2ff8759cc10de069189643eecdf6",
+			"keccak256": "0x65fb8b0dfca3f2e00ef942300bfe9a79236a3869c0c820a738cf2b447c6ac0f4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8d80ddd7aed467d550cd56cb1619d6a51c763895598f14c5a591d76553ed41d0",
-				"dweb:/ipfs/Qmc9iAprfHvfpRAXgPr8rZTpPfeVyKjHWVyan7zRircKNS"
+				"bzz-raw://3b9cf23829d67f3f2c7e66b00e91d9919a7297eab335421fad1bf16a92bdf08b",
+				"dweb:/ipfs/QmdkPof9gWJoVEF1hkq1ATz4v5YaLWgVhLzNkYymGLcUfx"
 			]
 		}
 	},

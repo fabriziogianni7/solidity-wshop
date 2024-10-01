@@ -9,10 +9,10 @@ pragma solidity >=0.8.2 <0.9.0;
 // then go here to get test tokens: https://faucets.chain.link/sepolia
 
 contract SimpleWallet {
-    address public owner;
+    address payable owner;
 
     constructor() {
-        owner = msg.sender;
+        owner = payable(msg.sender); //0x1C9E05B29134233e19fbd0FE27400F5FFFc3737
     }
 
     modifier onlyOwner() {
@@ -27,6 +27,6 @@ contract SimpleWallet {
     }
 
     function withdraw() public onlyOwner {
-        payable(owner).transfer(address(this).balance);
+       owner.transfer(address(this).balance);
     }
 }

@@ -7,33 +7,35 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdrawOner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "withdrawn",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -54,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/payments_2.sol": "SimpleWallet"
+			"contracts/payments_2.sol": "Withdraw"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,11 +71,11 @@
 	},
 	"sources": {
 		"contracts/payments_2.sol": {
-			"keccak256": "0xffd4eb64cf4768423db49af24ae40f96453d2ff8759cc10de069189643eecdf6",
+			"keccak256": "0xac59879f8183e45139ed88c029c12f58923b10d6041b61a610ab1d1537b2d446",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8d80ddd7aed467d550cd56cb1619d6a51c763895598f14c5a591d76553ed41d0",
-				"dweb:/ipfs/Qmc9iAprfHvfpRAXgPr8rZTpPfeVyKjHWVyan7zRircKNS"
+				"bzz-raw://423ecf0407278e597c901b7be5af45a6ab2c23c285e1fd20e4570a0f21210908",
+				"dweb:/ipfs/QmZ6bSo8EcdwvT1oSi5xKW7ctTPzP5NddJ4eZaJq5jNNRb"
 			]
 		}
 	},
