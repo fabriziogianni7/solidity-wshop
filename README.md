@@ -17,3 +17,8 @@ Once you cloned this, you can edit the contracts in "contracts" folder, directly
 - [urbe campus discord](https://discord.com/channels/969143984138092604/1208094620446236684)
 - [urbe website ](https://urbe.build/#about)
 
+- about ethereum: https://ethereum.org/en/developers/docs/intro-to-ethereum/
+- data types: https://shardeum.org/blog/solidity-data-types/
+- declaring and using arrays: https://www.tutorialspoint.com/solidity/solidity_arrays.htm
+- solidity mappings: https://www.geeksforgeeks.org/solidity-mappings/ 
+
