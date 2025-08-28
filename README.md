@@ -6,7 +6,7 @@ Clone this repo in remix. To do so, follow the steps:
 
 1. Go to https://remix.ethereum.org/
 2. sign in with github!
-3. On the top left, click on "workspaces" and then "clone"
+3. click on the down arrow next to your profile name and then hit "clone"
 4. insert this link https://github.com/fabriziogianni7/solidity-wshop
 5. you should be ok to Go
 
